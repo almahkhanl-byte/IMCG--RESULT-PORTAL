@@ -1,4 +1,4 @@
-const SHEET_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQTSrthf9aWtrRSdZL091koN1pYHYPAEHg_wjFSkTW2C-oMxqV5P3BQcVJJDetCrXzSrCea18Mq--oQ/pub?gid=0&single=true&output=csv";
+const SHEET_URL ="https://docs.google.com/spreadsheets/d/e/2PACX-1vQTSrthf9aWtrRSdZL091koN1pYHYPAEHg_wjFSkTW2C-oMxqV5P3BQcVJJDetCrXzSrCea18Mq--oQ/pub?gid=0&single=true&output=csv";
 
 async function getResult() {
     const admissionInput = document.getElementById("admissionNo").value.trim();
