@@ -1,0 +1,132 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #004d40 0%, #00796b 100%);
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+header { 
+    text-align: center; 
+    color: #004d40; 
+    border-bottom: 3px solid #004d40;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+header h1 { 
+    margin: 0; 
+    font-size: 28px;
+}
+header h2 { 
+    margin: 10px 0 0 0; 
+    color: #00796b;
+    font-size: 20px;
+}
+header p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.search-box { 
+    text-align: center; 
+    margin: 30px 0; 
+    padding: 20px;
+    background: #f1f8f7;
+    border-radius: 10px;
+}
+.search-box label {
+    font-weight: bold;
+    color: #004d40;
+    display: block;
+    margin-bottom: 10px;
+}
+.search-box input {
+    padding: 12px;
+    width: 250px;
+    max-width: 80%;
+    border: 2px solid #004d40;
+    border-radius: 8px;
+    font-size: 16px;
+    text-align: center;
+}
+.search-box button {
+    padding: 12px 25px;
+    background: #004d40;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 10px;
+    transition: 0.3s;
+}
+.search-box button:hover { 
+    background: #00796b; 
+    transform: scale(1.05);
+}
+
+.result-box { 
+    margin-top: 30px; 
+}
+.result-box h3 {
+    color: #004d40;
+    text-align: center;
+}
+.result-box table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+.result-box th, .result-box td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+.result-box th { 
+    background: #004d40; 
+    color: white; 
+    font-weight: bold;
+}
+.result-box tr:nth-child(even) {
+    background: #f9f9f9;
+}
+.pass { 
+    color: green; 
+    font-weight: bold; 
+    font-size: 18px;
+}
+.fail { 
+    color: red; 
+    font-weight: bold; 
+    font-size: 18px;
+}
+
+footer { 
+    text-align: center; 
+    margin-top: 40px; 
+    font-size: 12px; 
+    color: #777; 
+    border-top: 1px solid #ddd;
+    padding-top: 15px;
+}
+
+.loading {
+    text-align: center;
+    color: #00796b;
+    font-weight: bold;
+}
+.error {
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}
