@@ -1,4 +1,4 @@
-const SHEET_URL = "https://docs.google.com/spreadsheets/d/117qB-mbuZbGg7JvaxDVm1eEnhCtlKHETEPAtHPWwHGA/gviz/tq?tqx=out:json";
+const SHEET_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQTSrthf9aWtrRSdZL091koN1pYHYPAEHg_wjFSkTW2C-oMxqV5P3BQcVJJDetCrXzSrCea18Mq--oQ/pub?gid=0&single=true&output=csv";
 let studentsData = {};
 
 async function loadData() {
