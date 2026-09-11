@@ -1,34 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IMCG Korang Town - Result Portal</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="container">
-        <header>
-            <h1>IMCG Korang Town</h1>
-            <p>Islamabad Model College for Girls</p>
-            <h2>Online Result Portal</h2>
-        </header>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IMCG Korang Town - Online Result Portal</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #00695c; /* Dark Green Background */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      padding: 15px;
+    }
+    .container {
+      background: white;
+      padding: 25px 20px;
+      border-radius: 20px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+      width: 100%;
+      max-width: 400px;
+      text-align: center;
+    }
+    h1 {
+      color: #004d40; /* Dark Green */
+      margin: 0;
+      font-size: 24px;
+      font-weight: 700;
+    }
+    .subtitle {
+      color: #555;
+      font-size: 14px;
+      margin: 5px 0 10px 0;
+    }
+    .portal-title {
+      color: #00796b; /* Teal Green */
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 15px;
+    }
+    hr {
+      border: none;
+      border-top: 3px solid #00796b;
+      margin-bottom: 20px;
+    }
+    .search-box {
+      background: #e0f2f1; /* Light Green */
+      padding: 20px;
+      border-radius: 15px;
+      margin-bottom: 20px;
+    }
+    label {
+      color: #004d40;
+      font-size: 16px;
+      font-weight: 600;
+      display: block;
+      margin-bottom: 10px;
+    }
+    input {
+      width: 85%;
+      padding: 12px;
+      border: 2px solid #00796b;
+      border-radius: 10px;
+      font-size: 16px;
+      text-align: center;
+      margin-bottom: 15px;
+      outline: none;
+    }
+    input:focus {
+      border-color: #004d40;
+    }
+    button {
+      background: #00796b; /* Button Green */
+      color: white;
+      border: none;
+      padding: 12px 30px;
+      border-radius: 10px;
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
+      width: 
 
-        <div class="search-box">
-            <label for="admissionNo">Enter Admission No:</label>
-            <input type="text" id="admNo" placeholder="Example: G101, G201">
-            <button onclick="getResult()">Result Dekhain</button>
-        </div>
-
-        <div id="result" class="result-box">
-            <p>Apna Admission No daal kar result check karein</p>
-        </div>
-
-        <footer>
-            <p>Data managed via Google Sheets | For IMCG Korang Town Students</p>
-        </footer>
-    </div>
-
-    <script src="script.js"></script>
-</body>
-</html>
+     
